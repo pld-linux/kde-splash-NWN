@@ -5,7 +5,7 @@ Summary:	KDE splash screen - NWN theme
 Summary(pl):	Ekran startowy KDE - motyw NWN
 Name:		kde-splash-%{_splash}
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Amusements
 #Source0:	http://www.kde-look.org/content/download.php?content=1706
@@ -14,15 +14,15 @@ Source0:	http://www.kde-look.org/content/files/13285-nwn_splash.tar.gz
 Source1:	%{name}-Preview.png
 Source2:	%{name}-Theme.rc
 URL:		http://www.kdelook.org/content/download.php?content=13285
-Requires:	kdebase-desktop
+Requires:	kdebase-desktop >= 9:3.2.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-KDE splash screen with NeverWinter Nights logo and icons.
+KDE splash screen with Never Winter Nights logo and icons.
 
 %description -l pl
-Ekran startowy KDE z logo i ikonami z gry NeverWinter Nights.
+Ekran startowy KDE z logo i ikonami z gry Never Winter Nights.
 
 %prep
 %setup -q -n %{version}
