@@ -1,0 +1,6 @@
+[KSplash Theme: NWN]
+Name = NeverWinter Nights Splash Theme 
+Description = This is a NWN based Splash Screen for KDE
+Engine = Default
+Version = 0.2
+Icons Flashing = true
