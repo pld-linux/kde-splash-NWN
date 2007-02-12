@@ -2,7 +2,7 @@
 %define		_splash		NWN
 
 Summary:	KDE splash screen - NWN theme
-Summary(pl):	Ekran startowy KDE - motyw NWN
+Summary(pl.UTF-8):   Ekran startowy KDE - motyw NWN
 Name:		kde-splash-%{_splash}
 Version:	0.2
 Release:	2
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE splash screen with Never Winter Nights logo and icons.
 
-%description -l pl
+%description -l pl.UTF-8
 Ekran startowy KDE z logo i ikonami z gry Never Winter Nights.
 
 %prep
