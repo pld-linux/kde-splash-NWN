@@ -2,7 +2,7 @@
 %define		_splash		NWN
 
 Summary:	KDE splash screen - NWN theme
-Summary(pl.UTF-8):   Ekran startowy KDE - motyw NWN
+Summary(pl.UTF-8):	Ekran startowy KDE - motyw NWN
 Name:		kde-splash-%{_splash}
 Version:	0.2
 Release:	2
